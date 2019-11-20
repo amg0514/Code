@@ -75,13 +75,13 @@ class GraphicDisplay(tk.Tk):
         return canvas
 
     def load_images(self):
-        up = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/up.png").resize((13, 13)))
-        right = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/right.png").resize((13, 13)))
-        left = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/left.png").resize((13, 13)))
-        down = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/down.png").resize((13, 13)))
-        rectangle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/rectangle.png").resize((65, 65)))
-        triangle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/triangle.png").resize((65, 65)))
-        circle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/policy_iteration/img/circle.png").resize((65, 65)))
+        up = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/up.png").resize((13, 13)))
+        right = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/right.png").resize((13, 13)))
+        left = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/left.png").resize((13, 13)))
+        down = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/down.png").resize((13, 13)))
+        rectangle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/rectangle.png").resize((65, 65)))
+        triangle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/triangle.png").resize((65, 65)))
+        circle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/policy_iteration/img/circle.png").resize((65, 65)))
         return (up, down, left, right), (rectangle, triangle, circle)
 
     def reset(self):

@@ -45,11 +45,11 @@ class Env(tk.Tk):
 
     def load_images(self):
         rectangle = PhotoImage(
-            Image.open("C:/Users/MIS/PycharmProjects/sarsa/img/rectangle.png").resize((65, 65)))
+            Image.open("C:/Users/MIS/PycharmProjects/Code/sarsa/img/rectangle.png").resize((65, 65)))
         triangle = PhotoImage(
-            Image.open("C:/Users/MIS/PycharmProjects/sarsa/img/triangle.png").resize((65, 65)))
+            Image.open("C:/Users/MIS/PycharmProjects/Code/sarsa/img/triangle.png").resize((65, 65)))
         circle = PhotoImage(
-            Image.open("C:/Users/MIS/PycharmProjects/sarsa/img/circle.png").resize((65, 65)))
+            Image.open("C:/Users/MIS/PycharmProjects/Code/sarsa/img/circle.png").resize((65, 65)))
 
         return rectangle, triangle, circle
 

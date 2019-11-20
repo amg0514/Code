@@ -81,15 +81,15 @@ class GraphicDisplay(tk.Tk):
 
     def load_images(self):
         PhotoImage = ImageTk.PhotoImage
-        up = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/up.png").resize((13, 13)))
-        right = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/right.png").resize((13, 13)))
-        left = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/left.png").resize((13, 13)))
-        down = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/down.png").resize((13, 13)))
+        up = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/up.png").resize((13, 13)))
+        right = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/right.png").resize((13, 13)))
+        left = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/left.png").resize((13, 13)))
+        down = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/down.png").resize((13, 13)))
         rectangle = PhotoImage(
-            Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/rectangle.png").resize((65, 65)))
+            Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/rectangle.png").resize((65, 65)))
         triangle = PhotoImage(
-            Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/triangle.png").resize((65, 65)))
-        circle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/value_iteration/img/circle.png").resize((65, 65)))
+            Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/triangle.png").resize((65, 65)))
+        circle = PhotoImage(Image.open("C:/Users/MIS/PycharmProjects/Code/value_iteration/img/circle.png").resize((65, 65)))
         return (up, down, left, right), (rectangle, triangle, circle)
 
     def clear(self):
